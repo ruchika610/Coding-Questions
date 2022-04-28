@@ -1,4 +1,6 @@
-  int ans = Integer.MIN_VALUE;
+  class Solution {
+   public int findClosestNumber(int[] nums) {
+        int ans = Integer.MIN_VALUE;
         int closest = Integer.MAX_VALUE;
         
         for (int i = 0; i < nums.length; i++) {
@@ -14,3 +16,5 @@
         }
         
         return ans;
+     }
+  }   
