@@ -7,7 +7,7 @@ class Solution {
         }
 
         for(int i = 0; i< nums.length; i++){
-             count += freq[nums[i]]++;
+             count = count + freq[nums[i]]++;
          }
           return count;
       /* brute force approach
