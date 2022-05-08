@@ -7,7 +7,8 @@ class Solution {
         }
 
         for(int i = 0; i< nums.length; i++){
-             count = count + freq[nums[i]]++;
+             count = count + freq[nums[i]];
+             freq[nums[i]]++;//if that number is present at that index already then increment frq of that number
          }
           return count;
       /* brute force approach
